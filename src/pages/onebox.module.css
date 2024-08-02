@@ -1,0 +1,94 @@
+.onebox {
+    color: #fff;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+  }
+  
+  .header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .workspace {
+    font-size: 16px;
+  }
+  
+  .centeredContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+  }
+  
+  .icon {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  .colorButtons {
+    position: absolute;
+    bottom: 20px;
+  }
+  
+  .colorButtons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .colorButtons button:hover {
+    background-color: #777;
+  }
+  
+  .dataList {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dataList li {
+    margin: 10px 0;
+  }
+  
+  .dataList button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .dataList button:hover {
+    background-color: darkred;
+  }
+  

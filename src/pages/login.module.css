@@ -1,0 +1,145 @@
+/* login.module.css */
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  position: relative;
+}
+
+.noiseAnimationIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.root {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+}
+
+.numberedItemParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.numberedItem {
+  width: 100%;
+}
+
+.numberedItem1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.numberedItem2 {
+  text-align: center;
+}
+
+.createANew {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.numberedItem3 {
+  margin-bottom: 1rem;
+}
+
+.nestedItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.5rem;
+  background: #fff;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.nestedItem:hover {
+  background: #f9f9f9;
+  border-color: #ccc;
+}
+
+.nestedItemIcon {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
+}
+
+.signUpWith {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.loginContentParent {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.loginContent {
+  font-size: 0.875rem;
+}
+
+.signInLink {
+  display: flex;
+  justify-content: center;
+}
+
+.alreadyHaveAnAccountParent {
+  display: flex;
+  flex-direction: column;
+}
+
+.alreadyHaveAn {
+  margin-bottom: 0.5rem;
+}
+
+.signIn {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: 500;
+}
