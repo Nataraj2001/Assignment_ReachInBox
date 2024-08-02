@@ -107,10 +107,20 @@ npm install nodemon -D
 The command "npm run dev" is used to execute the development script defined in a Node.js project's package.json file. Typically, it starts a development server or runs tasks such as transpiling code, bundling assets, and watching for changes, enabling developers to work on their projects with live updates and debugging capabilities.
 
 npm run dev
+### Output
+# Login Page 
+![image](https://github.com/user-attachments/assets/a33edcd0-efb9-4aaf-9dae-bf6ba62cc45b)
 
-bash
-npm run build
-This command will generate a build directory with optimized files for production deployment.
+# OneBox
+![image](https://github.com/user-attachments/assets/b728d05a-b6e5-446f-8f02-450fee6f9eb0)
 
-### 
+# Onebox-list Emails
+![image](https://github.com/user-attachments/assets/33dd2f28-d135-42d1-8770-786d4e6ffaff)
+
+# Onebox-Get Thread
+![image](https://github.com/user-attachments/assets/76785ff2-f8ae-40d7-87b7-0e14c48aae90)
+
+# Onebox - Delete Thread (postman)
+![image](https://github.com/user-attachments/assets/fafd8d68-7c60-4e4e-8f2e-55627cd509fe)
+
 
